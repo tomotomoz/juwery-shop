@@ -282,7 +282,7 @@ a:hover {
   }
 
   .main-visual-container {
-    height: 350px;
+    height: 400px;
     margin-bottom: 40px;
   }
 
@@ -292,7 +292,7 @@ a:hover {
     transform: translate(0%, 0%);
 
     img {
-      height: 350px;
+      height: 400px;
     }
   }
 
