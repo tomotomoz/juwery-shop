@@ -10,7 +10,7 @@ imgAreas.forEach((imgArea) => {
 gsap.to(imgArea, {
   scrollTrigger: {
   trigger: imgArea,
-  start: 'top center', 
+  start: 'top 70%', 
   //  markers: true,
   },
   y: 0,
@@ -45,8 +45,8 @@ gsap.fromTo(
     stagger: 0.2, // 0.2秒遅れて順番に再生
     scrollTrigger: {
       trigger: '.main-text',
-      start: 'top center',
-      // markers: true
+      start: 'top 70%',
+      //  markers: true
     },
   },
 );
