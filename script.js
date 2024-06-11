@@ -11,7 +11,7 @@ gsap.to(imgArea, {
   scrollTrigger: {
   trigger: imgArea,
   start: 'top 70%', 
-  markers: true,
+  // markers: true,
   },
   y: 0,
   opacity: 1,
