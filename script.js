@@ -3,7 +3,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
-const imgAreas = gsap.utils.toArray('.section-item')
+const imgAreas = gsap.utils.toArray('.fade')
 console.log(imgAreas)
 
 imgAreas.forEach((imgArea) => {
@@ -11,7 +11,7 @@ gsap.to(imgArea, {
   scrollTrigger: {
   trigger: imgArea,
   start: 'top 70%', 
-  //  markers: true,
+  markers: true,
   },
   y: 0,
   opacity: 1,

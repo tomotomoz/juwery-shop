@@ -247,6 +247,10 @@ a:hover {
 
 .section-item {
   margin-bottom: 80px;
+}
+
+.fade {
+  
   opacity: 0;
   transition: 2s ease;
   transform: translateY(-10px);
