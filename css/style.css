@@ -249,8 +249,7 @@ a:hover {
   margin-bottom: 80px;
 }
 
-.fade {
-  
+.act {
   opacity: 0;
   transition: 2s ease;
   transform: translateY(-10px);

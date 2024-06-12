@@ -3,7 +3,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
-const imgAreas = gsap.utils.toArray('.fade')
+const imgAreas = gsap.utils.toArray('.act')
 console.log(imgAreas)
 
 imgAreas.forEach((imgArea) => {
