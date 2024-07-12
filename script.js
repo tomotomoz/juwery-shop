@@ -42,10 +42,10 @@ gsap.fromTo(
   {
     autoAlpha: 1, // アニメーション後は出現(透過率0)
     y: 0, // 20px上に移動
-    stagger: 0.2, // 0.2秒遅れて順番に再生
+    stagger: 0.1, // 0.2秒遅れて順番に再生
     scrollTrigger: {
       trigger: '.main-text',
-      start: 'top 70%',
+      start: 'top 90%',
       //  markers: true
     },
   },
