@@ -35,13 +35,14 @@ a:hover {
 .header-wrapper {
   width: 100%;
   padding: 0 4%;
-  
+ 
 }
 .header-flex {
   display: flex;
   align-items: center;
   margin: 30px auto 0;
 
+  height: 80px;
 }
 
 .nav-flex {
