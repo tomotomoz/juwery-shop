@@ -35,12 +35,12 @@ a:hover {
 .header-wrapper {
   width: 100%;
   padding: 0 4%;
- 
 }
 .header-flex {
   display: flex;
   align-items: center;
   margin: 30px auto 0;
+
 
 }
 
@@ -81,20 +81,18 @@ a:hover {
 /* main-visual */
 .main-visual-container {
   position: relative;
-  height: 100vh;
+  height:100vh;
   margin-bottom: 96px;
-}
-.main-visual-areal {
   display: flex;
   justify-content: space-between;
+
 }
 
-.main-visual-area .fade li {
+.main-visual-container .fade li {
   width: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 8%;
+  left: 0;
   opacity: 0;
   animation: fade 20s infinite;
 
@@ -292,7 +290,7 @@ a:hover {
     margin-bottom: 40px;
   }
 
-  .main-visual-area .fade li {
+  .main-visual-container .fade li {
     top: 0;
     left: 0;
     transform: translate(0%, 0%);
