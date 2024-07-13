@@ -81,8 +81,8 @@ a:hover {
 /* main-visual */
 .main-visual-container {
   position: relative;
-  height:100vh;
-  margin-bottom: 240px;
+  height: 100vh;
+  margin-bottom: 64px;
   display: flex;
   justify-content: space-between;
 
