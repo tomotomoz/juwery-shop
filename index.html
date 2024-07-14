@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Wooden Jewelry</title>
-  <meta name="description" content="テキスト">
+  <meta name="description" content="手作りのアクセサリーを販売しているお店のサイトです。">
+  <meta name="keywords" content="アクセサリー,ジュエリー,手作り,指輪">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/reset.css">
@@ -13,11 +14,11 @@
 </head>
 
 <body>
-  <header class="header header-wrapper">
+  <header id="header" class="header header-wrapper">
     <div class="header-flex">
       <h1 class="logo">
-        <a href="">
-          <img src="img/logo.svg" alt="">
+        <a href="#header">
+          <img src="img/logo.svg" alt="Wooden Jewelryのお店ロゴです。">
         </a>
       </h1>
 
@@ -31,21 +32,21 @@
     </div>
 
     <div class="main-visual-container">
-  
-        <ul class="fade">
-          <li><img src="img/mainvisual_1.jpg" alt=""></li>
-          <li><img src="img/mainvisual_2.jpeg" alt=""></li>
-          <li><img src="img/mainvisual_3.jpg" alt=""></li>
-        </ul>
 
-        <div class="sns-container">
-          <a href="">
-            <img class="sns-icon" src="img/insta.png" alt="">
-          </a>
-          <a href="">
-            <img class="sns-icon" src="img/x.png" alt="">
-          </a>
-        </div>
+      <ul class="fade">
+        <li><img src="img/mainvisual_1.jpg" alt=""></li>
+        <li><img src="img/mainvisual_2.jpeg" alt=""></li>
+        <li><img src="img/mainvisual_3.jpg" alt=""></li>
+      </ul>
+
+      <div class="sns-container">
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img class="sns-icon" src="img/insta.png" alt="インスタグラムのアイコンです。">
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img class="sns-icon" src="img/x.png" alt="Xのアイコンです。">
+        </a>
+      </div>
 
     </div>
   </header>
@@ -59,7 +60,7 @@
     <section id="concept" class="section-item">
       <div class="section-flex">
         <div class="section-img img-left act">
-          <img class="fade" src="img/concept.jpg" alt="">
+          <img class="fade" src="img/concept.jpg" alt="手作りの指輪のイメージ画像です。">
         </div>
 
         <div class="section-text act">
@@ -78,7 +79,7 @@
     <section id="work" class="section-item">
       <div class="section-flex work-reverse">
         <div class="section-img img-right act">
-          <img src="img/work.jpg" alt="">
+          <img src="img/work.jpg" alt="仕事場のイメージ画像です">
         </div>
 
         <div class="section-text act">
@@ -91,7 +92,7 @@
           <p>テキストテキストテキストテキストテキストテ
             キストテキストテキストテキスト</p>
           <div class="btn-area">
-            <a class="read-more" href="">read more</a>
+            <a class="read-more" href="こだわりについてより詳しく読む">read more</a>
           </div>
         </div>
       </div>
@@ -101,7 +102,7 @@
   <footer class="footer">
     <div class="wrapper footer-flex">
       <div class="logo">
-        <a href=""><img src="img/logo.svg" alt=""></a>
+        <a href="#header"><img src="img/logo.svg" alt="Wooden Jewelryのお店ロゴです。"></a>
       </div>
       <p><small>&copy;2021 Wooden Jewelry</small></p>
     </div>
@@ -110,4 +111,5 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 </body>
+
 </html>
