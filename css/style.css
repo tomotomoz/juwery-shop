@@ -82,9 +82,10 @@ a:hover {
 .main-visual-container {
   position: relative;
   height: 100vh;
-  margin-bottom: 64px;
+  margin-bottom: 160px;
   display: flex;
   justify-content: space-between;
+  /* background-color: #8c7171; */
 
 }
 
@@ -109,7 +110,8 @@ a:hover {
   }
 
   img {
-    height: 700px;
+    /* height: 700px; */
+    height: 90vh;
     width: 100%;
     object-fit: cover;
   }
