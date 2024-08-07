@@ -87,6 +87,11 @@ a:hover {
   justify-content: space-between;
   /* background-color: #8c7171; */
 }
+@media (max-width: 840px){
+  .main-visual-container{
+    margin-bottom: 80px;
+  }
+}
 
 .main-visual-container .fade li {
   width: 100%;
