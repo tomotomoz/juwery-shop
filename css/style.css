@@ -81,7 +81,6 @@ a:hover {
 /* main-visual */
 .main-visual-container {
   position: relative;
-  height: 100vh;
   margin-bottom: 160px;
   display: flex;
   justify-content: space-between;
@@ -93,7 +92,7 @@ a:hover {
   }
 }
 
-.main-visual-container .fade li {
+.main-visual-container .fade li{
   width: 100%;
   position: absolute;
   top: 8%;
